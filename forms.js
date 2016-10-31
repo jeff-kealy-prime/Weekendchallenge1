@@ -36,7 +36,7 @@ $(document).ready(function() {
       $el.append('<td>' + empInfo.employeelastname + '</td>');
       $el.append('<td>' + empInfo.idnumber + '</td>');
       $el.append('<td>' + empInfo.jobtitle + '</td>');
-      $el.append('<td>' + empInfo.yearlysalary + '</td>');
+      $el.append('<td>' + parseInt(empInfo.yearlysalary) + '</td>');
 
 
       $("#monthlySalaryEx").remove();
