@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <title>jQuery Forms</title>
+      <title>Business Dcouments</title>
       <script type="text/javascript" src="jquery-3.1.1.js"></script>
       <script type="text/javascript" src="forms.js"></script>
       <link rel="stylesheet" href="form-style.css" />
@@ -11,28 +11,44 @@
     <div>
       <form id="employeeinfo">
         <div id= "order">
-        <label for="employeefirstname">Employee First Name:</label>
-        <input type="text" id="employeefirstname" name="employeefirstname" />
-
-        <label for="employeelastname">Employee Last Name:</label>
-        <input type="text" id="employeelastname" name="employeelastname" />
-
-        <label for="idnumber">ID Number:</label>
-        <input type="text" id="idnumber" name="idnumber" />
-
-        <label for="jobtitle">Job Title:</label>
-        <input type="text" id="jobtitle" name="jobtitle" />
-
-        <label for="yearlysalary">Yearly Salary:</label>
-        <input type="text" id="yearlysalary" name="yearlysalary" />
-
-        <input type="submit" value="Submit Employee" />
+          <table>
+            <tr>
+              <td>
+                <label for="employeefirstname">Employee First Name:</label>
+                <input type="text" id="employeefirstname" name="employeefirstname" />
+              </td>
+              <td>
+                <label for="employeelastname">Employee Last Name:</label>
+                <input type="text" id="employeelastname" name="employeelastname" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="idnumber">ID Number:</label>
+                <input type="text" id="idnumber" name="idnumber" />
+              </td>
+              <td>
+                <label for="jobtitle">Job Title:</label>
+                <input type="text" id="jobtitle" name="jobtitle" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="yearlysalary">Yearly Salary:</label>
+                <input type="text" id="yearlysalary" name="yearlysalary" />
+              </td>
+            </tr>
+            <tr>
+            <td>
+            <input type="submit" value="Submit Employee" />
+            </td>
+            </tr>
+        </table>
       </div>
       </form>
     </div>
       <h2>Employee List</h2>
     <div id="container">
-      <h2>Container</h2>
       <table id="lowertable">
         <tr>
           <th>First Name</th>
